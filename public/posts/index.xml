@@ -1,14 +1,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - 我的全新 Hugo 网站</title>
-        <link>http://example.org/posts/</link>
-        <description>所有文章 | 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 05 May 2021 16:45:37 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <title>所有文章 - 去摘，遥不可及的星</title>
+        <link>https://luotianyi.club/posts/</link>
+        <description>所有文章 | 去摘，遥不可及的星</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 May 2021 16:45:37 &#43;0800</lastBuildDate><atom:link href="https://luotianyi.club/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Emoji 支持</title>
+    <link>https://luotianyi.club/emoji-support/</link>
+    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://luotianyi.club/emoji-support/</guid>
+    <description><![CDATA[<p>Emoji 可以通过多种方式在 Hugo 项目中启用.</p>]]></description>
+</item><item>
     <title>First_post</title>
-    <link>http://example.org/posts/first_post/</link>
+    <link>https://luotianyi.club/first_post/</link>
     <pubDate>Wed, 05 May 2021 16:45:37 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/first_post/</guid>
+    <guid>https://luotianyi.club/first_post/</guid>
     <description><![CDATA[注意 在构建网站时, 你可以使用 &ndash;theme 选项设置主题. 但是, 我建议你修改配置文件 (config.toml) 将本主题设置为默认主题. 2.4 创建你的第一篇文章 以下是创建第一篇文章的方]]></description>
 </item></channel>
 </rss>

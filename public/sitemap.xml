@@ -2,8 +2,16 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/posts/first_post/</loc><lastmod>2021-05-05T16:45:37&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2021-05-05T16:45:37&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/</loc><lastmod>2021-05-05T16:45:37&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/categories/</loc></url><url>
-            <loc>http://example.org/tags/</loc></url></urlset>
+            <loc>https://luotianyi.club/emoji-support/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/first_post/</loc><lastmod>2021-05-05T17:06:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/posts/</loc><lastmod>2021-05-05T17:06:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/</loc><lastmod>2021-05-05T17:06:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/categories/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/tags/emoji/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/categories/markdown/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/tags/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/tags/installation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/tags/configuration/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
