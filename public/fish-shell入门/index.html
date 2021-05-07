@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Fish Shell 入门 - 英梨梨の小小站</title><meta name="Description" content="去摘，遥不可及的星"><meta property="og:title" content="Fish Shell 入门" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://luotianyi.club/fish-shell%E5%85%A5%E9%97%A8/" /><meta property="og:image" content="https://luotianyi.club"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-05-08T01:45:17&#43;08:00" />
+<meta property="article:modified_time" content="2021-05-08T01:45:17&#43;08:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://luotianyi.club"/>
+
+<meta name="twitter:title" content="Fish Shell 入门"/>
+<meta name="twitter:description" content=""/>
+<meta name="application-name" content="去摘，遥不可及的星">
+<meta name="apple-mobile-web-app-title" content="去摘，遥不可及的星"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/img/cherry.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://luotianyi.club/fish-shell%E5%85%A5%E9%97%A8/" /><link rel="prev" href="https://luotianyi.club/use-the-free-victoria-program-to-test-and-fix-your-hard-drive/" /><link rel="next" href="https://luotianyi.club/emoji-support/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Fish Shell 入门",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/luotianyi.club\/fish-shell%E5%85%A5%E9%97%A8\/"
+        },"genre": "posts","keywords": "终端","wordcount":  1164 ,
+        "url": "https:\/\/luotianyi.club\/fish-shell%E5%85%A5%E9%97%A8\/","datePublished": "2021-05-08T01:45:17+08:00","dateModified": "2021-05-08T01:45:17+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": "https:\/\/luotianyi.club\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "英梨梨"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="英梨梨の小小站"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>去摘，遥不可及的星</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://github.com/vuejs/vue" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="英梨梨の小小站"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>去摘，遥不可及的星</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/vuejs/vue" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Fish Shell 入门</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>英梨梨</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/linux/"><i class="far fa-folder fa-fw"></i>Linux</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-05-08">2021-05-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1164 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="http://shp.qpic.cn/ishow/2735042818/1619604171_84828260_25670_sProdImgNo_2.jpg/0"
+        data-srcset="http://shp.qpic.cn/ishow/2735042818/1619604171_84828260_25670_sProdImgNo_2.jpg/0, http://shp.qpic.cn/ishow/2735042818/1619604171_84828260_25670_sProdImgNo_2.jpg/0 1.5x, http://shp.qpic.cn/ishow/2735042818/1619604171_84828260_25670_sProdImgNo_2.jpg/0 2x"
+        data-sizes="auto"
+        alt="http://shp.qpic.cn/ishow/2735042818/1619604171_84828260_25670_sProdImgNo_2.jpg/0"
+        title="http://shp.qpic.cn/ishow/2735042818/1619604171_84828260_25670_sProdImgNo_2.jpg/0" /></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#命令行着色">命令行着色</a></li>
+    <li><a href="#自动建议">自动建议</a></li>
+    <li><a href="#配制">配制</a>
+      <ul>
+        <li><a href="#关闭问候语">关闭问候语</a></li>
+        <li><a href="#aliases">Aliases</a></li>
+      </ul>
+    </li>
+    <li><a href="#那么代价是什么">那么代价是什么？</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="fish-shell-入门">Fish Shell 入门</h1>
+<p>三年啊！我终于忍受不了 <code>oh-my-zsh</code> 的臃肿，将日常 Shell 从 zsh 切换到了 fish shell。</p>
+<p>虽然名为 fish，但它跟 “鱼” 一点关系都没有，它其实是 “the <strong>f</strong>riendly <strong>i</strong>nteractive <strong>sh</strong>ell” 的缩写。它最大特点就是方便易用。很多其他 Shell 需要折腾才有的功能，Fish 默认提供，并且开箱即用。</p>
+<p>如果你想要一个好用的 Shell，又不喜欢折腾，那么你一定要尝试一下 fish shell。</p>
+<p><figure><a class="lightgallery" href="fish_shell.jpg" title="fish shell" data-thumbnail="fish_shell.jpg" data-sub-html="<h2>测试哦</h2><p>fish shell</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="fish_shell.jpg"
+            data-srcset="fish_shell.jpg, fish_shell.jpg 1.5x, fish_shell.jpg 2x"
+            data-sizes="auto"
+            alt="fish_shell.jpg" />
+    </a><figcaption class="image-caption">测试哦</figcaption>
+    </figure></p>
+<h2 id="安装">安装</h2>
+<p>在 Archlinux 中安装：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-plaintext" data-lang="plaintext">sudo pacman -S fish
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy</p>
+<p>在 MacOS 中安装：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-plaintext" data-lang="plaintext">brew install fish
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy</p>
+<p>其他系统的安装请参考<a href="http://fishshell.com/#platform_tabs" target="_blank" rel="noopener noreffer">官方网站</a>。</p>
+<p>安装好后直接在命令行中输入 <code>fish</code> 就可以运行 fish shell 了。</p>
+<p>想要将 fish 设为默认 Shell，只需要执行：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-plaintext" data-lang="plaintext"># GNU/Linux 中
+chsh -s /usr/bin/fish
+
+# MacOS 中
+chsh -s /usr/local/bin/ fish
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy</p>
+<h2 id="命令行着色">命令行着色</h2>
+<p>fish 与 Bash 最大的不同，也是 fish 最好用的点之一便是命令行着色 (不同主题可能有所区别)：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-plaintext" data-lang="plaintext"># 无效命令显示为红色
+$ cl
+# 有效命令显示为蓝色
+$ clear
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy</p>
+<p>有效路径下会有下划线：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-plaintext" data-lang="plaintext">$ cd ~/Downloads/
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy</p>
+<h2 id="自动建议">自动建议</h2>
+<p>fish 会根据命令行的上下文和历史记录智能的给出命令建议：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-plaintext" data-lang="plaintext"># 命令建议
+$ yarn coverage
+$ git checkout dev
+# 路径建议
+$ ls ~/Downloads/
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy</p>
+<p>如果采纳建议，可以按下<code>→</code> 或 <code>Tab</code>。如果只采纳一部分，可以按下 <code>Alt + →</code>。</p>
+<p>对于按下 <code>Tab</code> 的命令补全，如果有多个可能的结果，fish 会把它们都列出，有的还带有简要介绍。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-plaintext" data-lang="plaintext">$ mkdir tmp
+mkdir        (Executable, 54kB)  mkfs.minix       (Executable, 105kB)
+mke2fs      (Executable, 134kB)  mkhomedir_helper  (Executable, 21kB)
+mkfifo       (Executable, 38kB)  mklost+found      (Executable, 13kB)
+mkfs         (Executable, 13kB)  mknod             (Executable, 42kB)
+…and 5 more rows
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy</p>
+<p>除了补全命令，fish 还可以补全参数。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-plaintext" data-lang="plaintext">$ ls -
+-1                                           (List one entry per line)
+-A  --almost-all                         (Show hidden except . and ..)
+-a  --all                                                (Show hidden)
+-B  --ignore-backups                      (Ignore files ending with ~)
+…and 51 more rows
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy</p>
+<p>你可能会说这些功能都可以用 zsh 实现。</p>
+<p>确实，zsh 也能做到，但 fish 做得更好，并且这些功能都是 fish 默认支持的，不需要折腾插件，也不需要安装臃肿的 <code>oh-my-zsh</code></p>
+<h2 id="配制">配制</h2>
+<p>虽然 fish 功能强大，但其实并没有多少配置文件需要写，毕竟 fish 的优点之一就是开箱即用嘛。</p>
+<p>fish 的配置文件是 <code>~/.config/fish/config.fish</code>，这个文件默认不存在，需要自己创建。</p>
+<p>这个文件里可以写各种 fish 支持的各种命令和函数，相当于 Bash 的 <code>.bashrc</code>。</p>
+<p>fish 还提供网页配置工具：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-plaintext" data-lang="plaintext">fish_config
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy</p>
+<p>在浏览器中可以交互式配置 fish 的配色、提示符、函数、变量、历史记录和快捷键。 命令补全</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="new-page.assets/fish_config.png"
+        data-srcset="new-page.assets/fish_config.png, new-page.assets/fish_config.png 1.5x, new-page.assets/fish_config.png 2x"
+        data-sizes="auto"
+        alt="new-page.assets/fish_config.png"
+        title="fish_config" /></p>
+<h3 id="关闭问候语">关闭问候语</h3>
+<p>默认情况下，每次启动 fish，fish 都会打印问候语。要关闭问候语，可以在 fish 中运行：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-plaintext" data-lang="plaintext">set -U fish_greeting
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy</p>
+<h3 id="aliases">Aliases</h3>
+<p>fish 也是支持 <code>alias</code> 的，所以你可以在 <code>~/.config/fish/config.fish</code> 使用 <code>alias</code> 定义命令别名。</p>
+<p>或者复用 <code>.bash_aliases</code> (要确保 <code>.bash_aliases</code> 在的语法与 fish 兼容)：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fish" data-lang="fish"><span class="c"># ~/.config/fish/config.fish
+</span><span class="c"></span><span class="k">set</span> fish_aliases ~/.bash_aliases
+<span class="k">test</span> -r <span class="nv">$fish_aliases</span><span class="p">;</span> <span class="k">and</span> <span class="nb">source</span> <span class="nv">$fish_aliases</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy</p>
+<h2 id="那么代价是什么">那么代价是什么？</h2>
+<p>fish 这么强大，就没有一点缺点吗？</p>
+<p><strong>fish 最大的缺点就是它不兼容 POSIX</strong>，也就是说它不能完全兼容 Bash 中的命令，并且没法运行为 Bash 编写的脚本 (这也是我将 fish 作为日常 Shell 最大的顾虑)。</p>
+<p>不过在使用中我发现这并不是什么大问题，因为不兼容的命令大多是在编写脚本时使用的，平常用的很少。而 Shell 脚本大多都会在开头通过 <code>#!/bin/bash</code> 或者 <code>#!/bin/sh</code> 指定运行脚本的 Shell。实在是不行，也可以在命令行中运行 <code>bash</code> 临时切换到 bash 环境中。</p>
+<p>·End·</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2021-05-08</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/fish-shell%E5%85%A5%E9%97%A8/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://luotianyi.club/fish-shell%E5%85%A5%E9%97%A8/" data-title="Fish Shell 入门" data-via="@NASA" data-hashtags="终端"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://luotianyi.club/fish-shell%E5%85%A5%E9%97%A8/" data-hashtag="终端"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://luotianyi.club/fish-shell%E5%85%A5%E9%97%A8/" data-title="Fish Shell 入门"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://luotianyi.club/fish-shell%E5%85%A5%E9%97%A8/" data-title="Fish Shell 入门"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://luotianyi.club/fish-shell%E5%85%A5%E9%97%A8/" data-title="Fish Shell 入门" data-image="http://shp.qpic.cn/ishow/2735042818/1619604171_84828260_25670_sProdImgNo_2.jpg/0"><i class="fab fa-weibo fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E7%BB%88%E7%AB%AF/">终端</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/use-the-free-victoria-program-to-test-and-fix-your-hard-drive/" class="prev" rel="prev" title="Use the free Victoria program to test and fix your hard drive"><i class="fas fa-angle-left fa-fw"></i>Use the free Victoria program to test and fix your hard drive</a>
+            <a href="/emoji-support/" class="next" rel="next" title="Emoji 支持">Emoji 支持<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">将你信仰的一切，化作力量</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2017 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">英梨梨</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/js/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-thumbnail.js@1.2.0/dist/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-zoom.js@1.2.0/dist/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

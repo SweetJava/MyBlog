@@ -13,7 +13,7 @@
 >
 > 它的原型基于 [LeaveIt 主题](https://github.com/liuzc/LeaveIt) 和 [KeepIt 主题](https://github.com/Fastbyte01/KeepIt)。
 
-![Hugo 主题 LoveIt](/images/Apple-Devices-Preview.png "Hugo 主题 LoveIt")
+![Hugo 主题 LoveIt](Apple-Devices-Preview.png "Hugo 主题 LoveIt")
 
 ### 特性
 
@@ -107,4 +107,3 @@ LoveIt 主题中用到了以下项目，感谢它们的作者：
 * [Gitalk](https://github.com/gitalk/gitalk)
 * [Valine](https://valine.js.org/)
 * [cookieconsent](https://github.com/osano/cookieconsent)
-

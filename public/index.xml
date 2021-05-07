@@ -1,17 +1,47 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>去摘，遥不可及的星</title>
+        <title>英梨梨の小小站</title>
         <link>https://luotianyi.club/</link>
-        <description>关于 LoveIt 主题</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 May 2021 16:45:37 &#43;0800</lastBuildDate>
+        <description>去摘，遥不可及的星</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 08 May 2021 01:45:17 &#43;0800</lastBuildDate>
             <atom:link href="https://luotianyi.club/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>主题文档 - 内容</title>
+    <link>https://luotianyi.club/theme-documentation-content/</link>
+    <pubDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://luotianyi.club/theme-documentation-content/</guid>
+    <description><![CDATA[<p>了解如何在 <strong>LoveIt</strong> 主题中快速, 直观地创建和组织内容.</p>]]></description>
+</item><item>
+    <title>主题文档 - 扩展 Shortcodes</title>
+    <link>https://luotianyi.club/theme-documentation-extended-shortcodes/</link>
+    <pubDate>Tue, 03 Mar 2020 16:29:59 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://luotianyi.club/theme-documentation-extended-shortcodes/</guid>
+    <description><![CDATA[<p><strong>LoveIt</strong> 主题在 Hugo 内置的 shortcode 的基础上提供多个扩展的 shortcode.</p>]]></description>
+</item><item>
     <title>Emoji 支持</title>
     <link>https://luotianyi.club/emoji-support/</link>
     <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://luotianyi.club/emoji-support/</guid>
     <description><![CDATA[<p>Emoji 可以通过多种方式在 Hugo 项目中启用.</p>]]></description>
+</item><item>
+    <title>Fish Shell 入门</title>
+    <link>https://luotianyi.club/fish-shell%E5%85%A5%E9%97%A8/</link>
+    <pubDate>Sat, 08 May 2021 01:45:17 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://luotianyi.club/fish-shell%E5%85%A5%E9%97%A8/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="http://shp.qpic.cn/ishow/2735042818/1619604171_84828260_25670_sProdImgNo_2.jpg/0" referrerpolicy="no-referrer">
+            </div>]]></description>
+</item><item>
+    <title>Use the free Victoria program to test and fix your hard drive</title>
+    <link>https://luotianyi.club/use-the-free-victoria-program-to-test-and-fix-your-hard-drive/</link>
+    <pubDate>Sat, 08 May 2021 01:45:17 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://luotianyi.club/use-the-free-victoria-program-to-test-and-fix-your-hard-drive/</guid>
+    <description><![CDATA[]]></description>
 </item><item>
     <title>First_post</title>
     <link>https://luotianyi.club/first_post/</link>

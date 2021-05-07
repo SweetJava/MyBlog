@@ -2,16 +2,26 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://luotianyi.club/emoji-support/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/theme-documentation-content/</loc><lastmod>2020-03-05T16:30:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/theme-documentation-extended-shortcodes/</loc><lastmod>2020-03-03T16:29:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/emoji-support/</loc><lastmod>2021-05-07T18:07:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/categories/</loc><lastmod>2021-05-08T01:45:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/fish-shell%E5%85%A5%E9%97%A8/</loc><lastmod>2021-05-08T01:45:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/categories/linux/</loc><lastmod>2021-05-08T01:45:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/posts/</loc><lastmod>2021-05-08T01:45:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/tags/</loc><lastmod>2021-05-08T01:45:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/use-the-free-victoria-program-to-test-and-fix-your-hard-drive/</loc><lastmod>2021-05-08T01:45:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/tags/%E5%AD%98%E5%82%A8/</loc><lastmod>2021-05-08T01:45:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/categories/%E5%AD%98%E5%82%A8/</loc><lastmod>2021-05-08T01:45:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/tags/%E7%BB%88%E7%AB%AF/</loc><lastmod>2021-05-08T01:45:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/</loc><lastmod>2021-05-08T01:45:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://luotianyi.club/first_post/</loc><lastmod>2021-05-05T17:06:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://luotianyi.club/posts/</loc><lastmod>2021-05-05T17:06:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://luotianyi.club/</loc><lastmod>2021-05-05T17:06:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://luotianyi.club/categories/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://luotianyi.club/tags/emoji/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://luotianyi.club/categories/markdown/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://luotianyi.club/tags/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://luotianyi.club/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://luotianyi.club/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://luotianyi.club/tags/installation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://luotianyi.club/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://luotianyi.club/tags/configuration/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://luotianyi.club/tags/markdown/</loc><lastmod>2020-03-05T16:30:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/tags/shortcodes/</loc><lastmod>2020-03-03T16:29:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://luotianyi.club/tags/emoji/</loc><lastmod>2021-05-07T18:07:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/categories/markdown/</loc><lastmod>2021-05-07T18:07:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/about/</loc><lastmod>2021-05-07T18:07:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/tags/content/</loc><lastmod>2021-05-07T18:07:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/tags/installation/</loc><lastmod>2021-05-07T18:07:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/categories/documentation/</loc><lastmod>2021-05-07T18:07:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://luotianyi.club/tags/configuration/</loc><lastmod>2021-05-07T18:07:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
